@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background: #f19113;
+    /* background: orangered; */
+    color: white;
+    font-family: serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    color: white;
+    background: #000;;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.nav1 {
+    display: flex;
+    padding-left: 12rem;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav2 ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav2 ul li {
+    display: flex;
+}
+
+.nav2 li a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 12px;
+    margin: 12px;
+
+}
+
+.nav2 li a:hover {
+    color: orange;
+
+}
+
+.container {
+    display: flex;
+    gap: 18px;
+    margin-top: 1.5rem;
+    /* color: black; */
+    color: white;
+}
+
+.card1 {
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cardcontainer {
+    background: white;
+    box-shadow: 2px white;
+    color: black;
+    height: 7rem;
+    /* display: flex; */
+    margin: auto;
+    padding: 18px;
+}
+
+.containercard1 {
+    display: flex;
+}
+
+.containercard2 {
+    margin-top: 10px;
+    display: flex;
+    /* margin: auto; */
+    padding-left: 60px;
+}
+
+input {
+    width: 20rem;
+}
+
+.container i {
+    color: orangered;
+}
+
+button {
+    background: orangered;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    font-weight: bolder;
+    margin: auto;
+}
+button:hover{
+    background: orange;
+}
+.cardcontainer p {
+    display: flex;
+    margin: auto;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+}
+
+.card2 img {
+    height: 32rem;
+    margin: auto;
+    animation: rotate 24s linear infinite;
+}
+
+.card2img:hover {
+    cursor: pointer;
+    
+}
+
+@keyframes rotate {
+    0% {
+        /* rotate: 0deg; */
+        transform: rotate(0deg);
+        /* animation-delay: 1s; */
+
+    }
+
+  
+
+    100% {
+        transform: rotate(360deg);
+        /* rotate: 360deg; */
+    }
+}
+
+.card-container {
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #000;
+    /* gap: 20px; */
+    border-radius: 16px;
+    height: 350px;
+    padding: 20px;
+}
+i:hover{
+color: #f19113;
+}
+.maincard {
+    margin: auto;
+}
+.aboutsection{
+    font-style: italic;
+    font-size: larger;
+}
+.aboutimg img:hover{
+    transition: 1s;
+   
+    scale: 1.06;
+}
+.foodcard{
+   height: auto;
+    margin: auto;
+    text-align: center;
+}
+.foodcard img{
+    height: 200px;
+    width: 100%;
+}
+.card-container img {
+    width: auto;
+    height: 100px;
+}
+form{
+    /* background: #14045c; */
+    background: #000;
+    height: 100%;
+    padding: 10px;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+footer {
+    /* background: #0b033d;
+     */
+     background: #000;
+    color: white;
+height: auto;
+    text-align: center;
+    margin: 0;
+
+}
+
+footer h1 {
+    color: #f19113;
+    padding: 15px;
+    font-style: italic;
+    /* font-size: larger; */
+    /* font-size: 28px; */
+}
+footer button{
+    background: orangered;
+}
+footer ul li,.para {
+    color: white;
+    list-style: none;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+}
+footer ul li:hover{
+    color: #f19113;
+}
+.last-foot input {
+    text-align: center;
+    
+    height: 50px;
+}
+
+.last-foot button {
+    /* padding: 12px; */
+    text-align:
+        center;
+    height: 50px;
+    width: auto;
+    /* margin-left: -15px; */
+    
+    border-left: none;
+    /* font-style: italic; */
+    font-family: serif;
+    font-size: large;
+    /* border-radius: 10px; */
+}
+
+footer .last-foot {
+    display: flex;
+}
